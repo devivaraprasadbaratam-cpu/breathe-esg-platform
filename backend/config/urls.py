@@ -1,17 +1,12 @@
-from django.http import HttpResponse
 from django.contrib import admin
 from django.urls import path, include
+from django.http import HttpResponse
+
 def home(request):
     return HttpResponse("Backend is Live 🚀")
+
 urlpatterns = [
-
-    path(
-        "admin/",
-        admin.site.urls
-    ),
-
-    path(
-        "api/",
-        include("api.urls")
-    ),
+    path('', home),
+    path('admin/', admin.site.urls),
+    path('api/', include('api.urls')),
 ]
