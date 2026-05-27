@@ -75,11 +75,6 @@ pure_eval==0.2.3
 pycparser==2.22
 Pygments==2.19.2
 pynput==1.8.1
-pyobjc-core==12.1
-pyobjc-framework-ApplicationServices==12.1
-pyobjc-framework-Cocoa==12.1
-pyobjc-framework-CoreText==12.1
-pyobjc-framework-Quartz==12.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 pytz==2025.2
